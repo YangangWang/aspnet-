@@ -3,7 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter1", "chapter1\chapter1.csproj", "{DE97111C-67C5-41B5-A107-C5E8828F94BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter1", "chapter1\chapter1.csproj", "{FBE2CE42-9444-4338-A607-090CB946171D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2(1)", "WebSite2", "{E08CB6E5-167B-4D80-BA80-5BAEC6946073}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21480"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21480\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21480"
+		Release.AspNetCompiler.PhysicalPath = "WebSite2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21480\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21480"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(2)", "WebSite1", "{2BF0263A-52F5-4224-931C-2212C16C8FE3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_21481"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21481\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_21481"
+		Release.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_21481\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21481"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +51,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE97111C-67C5-41B5-A107-C5E8828F94BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE97111C-67C5-41B5-A107-C5E8828F94BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE97111C-67C5-41B5-A107-C5E8828F94BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE97111C-67C5-41B5-A107-C5E8828F94BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE2CE42-9444-4338-A607-090CB946171D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE2CE42-9444-4338-A607-090CB946171D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE2CE42-9444-4338-A607-090CB946171D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE2CE42-9444-4338-A607-090CB946171D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08CB6E5-167B-4D80-BA80-5BAEC6946073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08CB6E5-167B-4D80-BA80-5BAEC6946073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08CB6E5-167B-4D80-BA80-5BAEC6946073}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08CB6E5-167B-4D80-BA80-5BAEC6946073}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2BF0263A-52F5-4224-931C-2212C16C8FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF0263A-52F5-4224-931C-2212C16C8FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF0263A-52F5-4224-931C-2212C16C8FE3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF0263A-52F5-4224-931C-2212C16C8FE3}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

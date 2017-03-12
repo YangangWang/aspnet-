@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DE97111C-67C5-41B5-A107-C5E8828F94BB}</ProjectGuid>
+    <ProjectGuid>{FBE2CE42-9444-4338-A607-090CB946171D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,10 +57,59 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="closeform.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="pictures\0a69725.jpg" />
+    <Content Include="pictures\131034_2682.jpg" />
+    <Content Include="pictures\155导航.ico" />
+    <Content Include="pictures\160628-lycq[1].ico" />
+    <Content Include="pictures\160628-niux.ico" />
+    <Content Include="pictures\160WiFi.ico" />
+    <Content Include="pictures\6359122812834202718749534.jpg" />
+    <Content Include="pictures\6360444870756264953033346.jpg" />
+    <Content Include="pictures\814a0034f5549e957ee61360d87457e5_r.jpg" />
+    <Content Include="pictures\a.jpg" />
+    <Content Include="pictures\images.jpg" />
+    <Content Include="pictures\link.jpg" />
+    <Content Include="pictures\sit-back-relax-and-find-her-37-photos-15.jpg" />
+    <Content Include="pictures\sit-back-relax-and-find-her-37-photos-30 %281%29.jpg" />
+    <Content Include="pictures\sit-back-relax-and-find-her-37-photos-30 %282%29.jpg" />
+    <Content Include="pictures\sit-back-relax-and-find-her-37-photos-30.jpg" />
+    <Content Include="pictures\sit-back-relax-and-find-her-37-photos-4.jpg" />
+    <Content Include="pictures\sit-back-relax-and-find-her-37-photos-9.jpg" />
+    <Content Include="pictures\u=896408547,2384913948&amp;fm=21&amp;gp=0.jpg" />
+    <Content Include="pictures\下载 %281%29.jpg" />
+    <Content Include="pictures\下载 %282%29.jpg" />
+    <Content Include="pictures\下载 %283%29.jpg" />
+    <Content Include="pictures\下载.jpg" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="closeform.aspx.cs">
+      <DependentUpon>closeform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="closeform.aspx.designer.cs">
+      <DependentUpon>closeform.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -83,9 +132,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>9297</DevelopmentServerPort>
+          <DevelopmentServerPort>9185</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:9297/</IISUrl>
+          <IISUrl>http://localhost:9185/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

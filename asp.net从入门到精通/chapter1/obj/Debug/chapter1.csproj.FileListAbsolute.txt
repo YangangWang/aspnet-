@@ -1,0 +1,6 @@
+G:\我的坚果云\Projects\DevExpress\asp.net从入门到精通\chapter1\bin\chapter1.dll.config
+G:\我的坚果云\Projects\DevExpress\asp.net从入门到精通\chapter1\bin\chapter1.dll
+G:\我的坚果云\Projects\DevExpress\asp.net从入门到精通\chapter1\bin\chapter1.pdb
+G:\我的坚果云\Projects\DevExpress\asp.net从入门到精通\chapter1\obj\Debug\chapter1.csprojResolveAssemblyReference.cache
+G:\我的坚果云\Projects\DevExpress\asp.net从入门到精通\chapter1\obj\Debug\chapter1.dll
+G:\我的坚果云\Projects\DevExpress\asp.net从入门到精通\chapter1\obj\Debug\chapter1.pdb
