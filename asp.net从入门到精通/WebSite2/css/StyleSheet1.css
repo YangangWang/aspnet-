@@ -1,0 +1,58 @@
+﻿body {
+    background-color: #f5f5d5;
+}
+img {
+    border: 0.3em solid #e0dfcc;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+p {
+    margin-top: 1em;
+    line-height: 180%;
+    margin-left: 0.8em;
+}
+blockquote {
+    background-color: #f5f2f0;
+    padding: 1em;
+    margin: 2em 2em;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    -moz-border-radius: 1em; /* FF1+ */
+    -webkit-border-radius: 1em; /* Saf3+, Chrome */
+    border-radius: 1em;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    border-width: 0.3em;
+    border-color: #e0dfcc;
+    border-style: solid;
+    text-shadow: 0 1px white;
+    overflow: auto;
+}
+b {
+    margin-top: 1em;
+    line-height: 180%;
+    margin-left: 0.8em;
+}
+.stylecs{
+    background-color:yellow;
+    font-style:oblique;
+    font-size:medium;
+    border:2px;
+    border-color:black;
+}
+.login {
+    background-color: greenyellow;
+    border: 2px;
+    border-color: black;
+}
+.createuser {
+    background-color: yellow;
+    border: 2px;
+    border-color: black;
+}
+div {
+    
+    border-width:1px;
+    border-color: black;
+    border-style:solid;
+}
+

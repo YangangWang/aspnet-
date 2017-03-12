@@ -32,5 +32,21 @@ b {
     line-height: 180%;
     margin-left: 0.8em;
 }
-
+.stylecs{
+    background-color:yellow;
+    font-style:oblique;
+    font-size:medium;
+    border:2px;
+    border-color:black;
+}
+.login {
+    background-color: greenyellow;
+    border: 2px;
+    border-color: black;
+}
+.createuser {
+    background-color: yellow;
+    border: 2px;
+    border-color: black;
+}
 
