@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter1", "chapter1\chapter1.csproj", "{FBE2CE42-9444-4338-A607-090CB946171D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E08CB6E5-167B-4D80-BA80-5BAEC6946073} = {E08CB6E5-167B-4D80-BA80-5BAEC6946073}
+	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite2", "WebSite2\", "{E08CB6E5-167B-4D80-BA80-5BAEC6946073}"
 	ProjectSection(WebsiteProperties) = preProject

@@ -1,0 +1,2 @@
+运行本程序，需要添加Web Service引用。
+Web Service地址为http://webserver.wzilin.com/webserver/WS_BIG5/qq.asmx，并将其Web引用名改为“webserver. Mobile”。

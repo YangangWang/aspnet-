@@ -14,8 +14,6 @@
     <div>
     
     </div>
-        <dx:ASPxReportDesigner ID="ASPxReportDesigner1" runat="server">
-        </dx:ASPxReportDesigner>
     </form>
 </body>
 </html>

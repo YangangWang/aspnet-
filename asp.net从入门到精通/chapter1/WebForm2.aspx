@@ -56,6 +56,10 @@
                     </asp:CreateUserWizard>
                 </div>
             </asp:Panel>
+            <div>r45f5
+                <asp:Button id="btn1" runat="server" Text="servicetest" OnClick="btn1_Click"/>
+                <asp:Button id="Button2" runat="server" Text="servicetest1" OnClick="btn1_Click1"/>
+            </div>
         </div>
     </form>
 </body>
